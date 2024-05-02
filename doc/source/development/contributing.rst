@@ -25,6 +25,18 @@ to ensure others and the core development team can fully understand the scope of
 
 The issue will then show up to the pandas community and be open to comments/ideas from others.
 
+To facilitate efficient issue management and resolution, we encourage the contributor who originally raises an issue to take ownership of the issue throughout its lifecycle. This includes:
+
+* Updating the original post with any important information, such as:
+
+   * Change of scope of the issue
+   * Additional details arising from the discussion thread
+   * Requested number of assignees for the issue
+
+* Closing the issue when it has been completed
+
+By taking ownership, contributors can ensure clear communication and efficient resolution of their reported issues or enhancement requests.
+
 Finding an issue to contribute to
 =================================
 
@@ -36,7 +48,12 @@ and `good first issue
 <https://github.com/pandas-dev/pandas/issues?q=is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22+no%3Aassignee>`_
 are typically good for newer contributors.
 
-Once you've found an interesting issue, it's a good idea to assign the issue to yourself,
+Once you’ve found an interesting issue, it’s important to check if someone else is already working on it.  Pandas issues can support multiple assignees, so you'll need to consider two things:
+
+* **Requested number of assignees:**  Check the original issue description to see if the maintainer has specified a desired number of contributors.
+* **Current assignee list:**  Look at the current assignee list on the GitHub issue. Even if unassigned, someone might have already claimed it with a comment but not yet been assigned through the "take" command. 
+
+If it looks like the issue is available, it's a good idea to assign the issue to yourself,
 so nobody else duplicates the work on it. On the Github issue, a comment with the exact
 text ``take`` to automatically assign you the issue
 (this will take seconds and may require refreshing the page to see it).
